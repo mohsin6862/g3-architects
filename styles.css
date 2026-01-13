@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1440px;
+
+}
+.nav-title,.nav-title a{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 30px;
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: rgba(66, 66, 66, 1);
+    line-height: 26px;
+}
+.nav-container h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: rgba(19, 19, 19, 1);
+}
