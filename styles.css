@@ -49,14 +49,20 @@ header{
     margin: 0 auto;
     max-width: 862px;
    text-align: center;
+   margin-bottom: 50px;
 }
 .banner-info h1{
     font-size: 4rem;
     font-weight: bold;
     color: rgba(19, 19, 19, 1);
+    margin-bottom: 25px;
 }
 .banner-info p{
     font-size: 1rem;
     color: rgba(114, 114, 114, 1);
     line-height: 26px;
+}
+.banner-container img{
+  width: 100%;
+  
 }
