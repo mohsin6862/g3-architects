@@ -66,3 +66,11 @@ header{
   width: 100%;
   
 }
+
+/* responsive design for mobile and tablet  */
+@media screen and (max-width: 576px){
+    .nav-title, .nav-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
