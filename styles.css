@@ -95,7 +95,7 @@ header{
     color: rgba(19, 19, 19, 1);
 }
 .quick-list-info p{
-    font-size: 1 rem;
+    font-size: 1rem;
     color: rgba(114, 114, 114, 1);
     line-height: 26px;
     width: 537px;
@@ -109,7 +109,7 @@ header{
 }
 .feature-info h1{
     border-left: 3px solid #FF900E;
-    font-size: 2.8 rem;
+    font-size: 2.8rem;
     font-weight: bold;
     color: rgba(19, 19, 19, 1);
     width: 468px;
@@ -119,10 +119,10 @@ header{
     font-size: 1rem;
     line-height: 26px;
     color: rgba(114, 114, 114, 1);
-    width: 568px;
+    
 }
 .featured-card{
-    width: 568px;
+  
     padding: 30px 33px;
     border-radius: 5px;
     box-shadow:   0 4px 30px 0 rgba(0, 0, 0, 0.06);
@@ -146,19 +146,38 @@ header{
 }
 /* responsive design for mobile and tablet  */
 @media screen and (max-width: 576px){
-    .nav-title, .nav-container{
-        flex-direction: column;
-        gap: 10px;
-    }
-   .quick-list-container,.quick-list-img{
+
+  .nav-title,
+  .nav-container{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .quick-list-container,
+  .quick-list-img{
     grid-template-columns: 1fr;
-    margin: 0 auto;
-    max-width: fit-content;
-   }
-   .quick-list-info{
+  }
+
+  .quick-list-info{
     text-align: center;
-   }
-   .quick-list-info p{
+  }
+
+  .quick-list-info p{
     width: 100%;
-   }
+  }
+
+  .feature-container{
+    grid-template-columns: 1fr;
+  }
+
+  .feature-info,
+  .feature-info p,
+  .featured-card{
+    width: 100%;
+  }
+
+  .feature-info h1{
+    width: 100%;
+    font-size: 2rem;
+  }
 }
