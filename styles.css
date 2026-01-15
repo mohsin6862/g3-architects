@@ -185,6 +185,45 @@ header{
     font-weight: 600;
     color:rgba(66, 66, 66, 1) ;
 }
+.sponsor-info{
+    text-align: center;
+}
+.sponsor-info h1{
+   font-size: 2.8rem;
+    font-weight: bold;
+    color: rgba(19, 19, 19, 1);
+    
+}
+.sponsor-info p{
+     font-size: 1rem;
+    line-height: 26px;
+    color: rgba(114, 114, 114, 1);
+    margin: 0 auto;
+    max-width: 542px;
+
+}
+.sponsor-img{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 150px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+.sponsor-img img {
+  filter: grayscale(100%);
+}
+.footer-container{
+    background-color: #FFF4E7;
+    border-radius: 10px;
+    padding: 39px 410px;
+    margin-bottom: 50px;
+   
+
+}
+.footer-container p{
+    color:  rgba(66, 66, 66, 1) ;
+    font-size: 1.25rem;
+}
 /* responsive design for mobile and tablet  */
 @media screen and (max-width: 576px){
 
